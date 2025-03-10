@@ -18,4 +18,9 @@ class ViDuController extends Controller{
     $ket_qua = $so_a+$so_b;
     return "Kết quả là: ".$ket_qua;
     }
+    function thuan(){
+        $name = "thuan";
+        return view('vidu1',["name1"=>$name]);
+    }
 }
+
