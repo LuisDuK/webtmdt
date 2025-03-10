@@ -65,4 +65,7 @@ class BookController extends Controller
     function inten(){
         return "Nguyễn MInh Đức";
     }
+    function inten2(){
+        return "Nguyễn MInh Đức";
+    }
 }
