@@ -62,4 +62,7 @@ class BookController extends Controller
             return "Thêm thất bại";
         }
     }
+    function inten(){
+        return "Nguyễn MInh Đức";
+    }
 }
