@@ -26,3 +26,5 @@ Route::post("/qlsach/themtheloai_2","App\Http\Controllers\BookController@them_th
 Route::get('/sach','App\Http\Controllers\ViduLayoutController@sach');
 Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@theloai');
 Route::get('/sach/theloai/thongtinsach/{id}','App\Http\Controllers\ViduLayoutController@thongtinsach');
+
+Route::get('/inten', "App\Http\Controllers\BookController@inten");
