@@ -19,7 +19,7 @@ class ViDuController extends Controller{
     return "Kết quả là: ".$ket_qua;
     }
     function thuan(){
-        $name = "thuan";
+        $name = "ttttt";
         return view('vidu1',["name1"=>$name]);
     }
 }
