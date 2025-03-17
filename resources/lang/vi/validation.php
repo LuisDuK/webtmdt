@@ -8,4 +8,6 @@ return [
 ],
 'unique' => ':attribute đã được đăng ký.',
 'attributes' => ["password"=>"Mật khẩu"],
+
 ];
+    
