@@ -1,6 +1,7 @@
-@extends("layouts.sach_layout")
-@section("title", $data->tieu_de)
-@section("content")
+<x-book-layout>
+<x-slot name="title">
+{{ $data->tieu_de }}
+</x-slot>
 <div class='book-infor'>
     <b style="font-size: 30px;">{{ $data->tieu_de }}</b><br />
     <div class="infor">
@@ -15,4 +16,4 @@
     <b>Mô tả:</b><br>
     {{ $data->mo_ta }}<br>
 </div>
-@endsection
+</x-book-layout>
